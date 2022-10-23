@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal PopUp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalExample">
+        Launch demo modal
+    </button>
+    <!-- Modal HTML Markup -->
+<div id="ModalExample" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">See more of this awesome website by logging in</h4>
+            </div>
+            <div class="modal-body">
+                <p class="lead text-xs-center">It only takes a few seconds to level up!</p>
+                <div class="lead text-xs-center"><a class="btn btn-info" href="/auth/register">Register For Fund</a> or
+                    <a class="btn btn-success" href="/auth/login">Register HIE's</a></div>
+            </div>
+            <div class="modal-footer">
+                :-)
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</body>
+</html>
